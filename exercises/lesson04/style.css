@@ -9,7 +9,21 @@
      body に background-color, color, font-family を設定
      img に max-width: 100% を設定（画像がはみ出さないように）
    ============================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+  background-color: #0f1923;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
 /* =============================================
    ヘッダー
    =============================================
